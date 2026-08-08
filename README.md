@@ -15,5 +15,15 @@ NexusRecon is an advanced, asynchronous OSINT framework designed to automate the
 **On Linux / Termux (Mobile):**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/nexusrecon.git
+   git clone https://github.com/Al-hassan-961/nexusrecon.git
    cd nexusrecon
+
+python main.py -t uaername
+
+for advance search using nmap scanning:
+
+python main.py -t <target_username> --nmap
+
+view all available commands
+
+python main.py -h
